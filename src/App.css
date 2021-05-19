@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -35,4 +35,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+p,
+label,
+td,
+th {
+  margin: 10px;
+  font-size: 14px;
+}
+
+input[type="text"] {
+  width: 100%;
+  display: blockl;
+}
+label {
+  display: block;
+}
+
+table {
+  margin: 10px auto;
 }
