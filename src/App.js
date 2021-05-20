@@ -4,6 +4,7 @@ import "./App.css";
 import Clock from "./components/clock";
 import Button from "./components/toggle";
 import Search from "./components/searchcomponent";
+import Todo from "./components/todo";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Clock />
         <Button />
         <Search />
+        <Todo />
       </header>
     </div>
   );
